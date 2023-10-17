@@ -3,14 +3,242 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UI-Portfolio</title>
+    <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        .header{
+            display: flex;
+            justify-content: space-between;
+            margin: 25px;
+        }
+        .address p{
+            
+            text-align: right;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 4fr 8fr;
+        }
+        .sec1{
+            background-color: #e7e5e1;
+            width: 100%;      
+           
+        } 
+        .sec1 .technical-title{
+            text-align: center;
+            margin: 15px;
+        }
+        .details1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }           
+        
+        .details2{
+            background-color: #fff;
+            width: 85%;   
+            padding: 20px;       
+            
+        }
+       .details3{        
+            background-color: #fff;
+            width: 85%;   
+            padding: 15px; 
+            text-align: center;
+            margin-top: 0px;
+       }
+      .details3 p{
+        margin-top: 10px;
+      }
+        
+        
+    </style>
 </head>
-<body class="container-fluid">
-    <h1 class="bg-info text-center text-white">UI-Developer</h1>
-    <img src="public/imges/banner2.jpg" width="300" height="300">
-    <p>My Skills : HTML , CSS, Bootstrap..</p>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="surname-title">
+                <img src="../../src/eduford_img/user1.jpg" alt="" style="height: 80px;width: 80px;border-radius: 100%;">
+                <h5  style="color:#6d6dba;font-weight: 700;"> Rohit Prajapati   </h5>
+
+            </div>
+            <div class="address" style="line-height: 4px;">
+                <p> <b style="color:#6d6dba"> Address : </b> <span> Noida Sector 63 </span> </p>
+                <p> <b style="color:#6d6dba"> Ph.No : </b> <span> 9511194892 </span> </p>
+                <p> <b style="color:#6d6dba"> Gmail ID : </b> <span> rohitkp1998@gmail.com </span> </p>
+                <p> <b style="color:#6d6dba"> Portfolio  : </b> <span>  </span> </p>
+            </div>
+        </div>
+        <section>
+            <div class="sec1">
+                <div class="technical-title"> <strong style="color:#6d6dba;"> TECHNICAL EXPERTISE</strong></div>
+                <div class="details1">                  
+                    <div class="details2">
+                        <ol>
+                            <li><b> JAVASCRIPT</b>
+                                <ul style="list-style: none;">
+                                    <li>&#11162; Types & Structure</li>
+                                    <li>&#11162; Statement</li>
+                                    <li>&#11162; Funcation</li>
+                                    <li>&#11162; Classes</li>
+                                </ul>
+                            </li>
+                            <li><b>TYPESCRIPT</b>
+                                <ul style="list-style: none;">
+                                    <li>&#11162;Contracts</li>
+                                    <li>&#11162; Templates</li>
+                                    <li>&#11162; Generic</li>
+                                    <li>&#11162; Enum</li>
+                                    <li>&#11162; Modules</li>
+                                    <li>&#11162; Namespace</li>
+                                </ul>
+                            </li>
+                            <li><b>REACT JS</b>
+                                <ul style="list-style: none;">
+                                    <li>&#11162; Add React to Website </li>
+                                    <li>&#11162; React Library & JSX </li>
+                                    <li>&#11162; Components & Props </li>
+                                    <li>&#11162; State & Data Binding</li>
+                                    <li>&#11162;  Lifecycle & Hooks</li>
+                                    <li>&#11162; Handling Events</li>
+                                    <li>&#11162;  Forms & Validations</li>
+                                    <li>&#11162;  Material UI </li>
+                                    <li>&#11162;  Routing, Cookies & <br> Authentication</li>
+                                    <li>&#11162;   Working with API </li>
+                                    <li>&#11162;  Redux</li>
+                                    <li>&#11162;  Webpack </li>
+                                    <li> &#11162;  Testing with JEST</li>
+                                </ul>
+                            </li>
+                            </ol>
+                            <!-- Next -->
+                            
+                       
+                    </div>
+                </div>
+                <!-- close details1 -->
+                <div class="technical-title"> <strong style="color:#6d6dba;"> FLUENT LANGAUGE</strong></div>
+                <div class="details1">                  
+                    <div class="details3" style="line-height: 4px;">
+                        <p> Normal English, Fluent Hindi</p>
+                    </div>    
+                </div>
+                <!-- close details1 -->
+                
+                 <div class="technical-title"> <strong style="color:#6d6dba;"> PERSONAL INFORMATION</strong></div>
+                 <div class="details1">                  
+                     <div class="details3" style="line-height: 4px;">
+                         <p> Date of Birth : July/18/1998</p>
+                     </div>    
+                 </div>
+                 <!-- close details1 -->
+                 <div class="technical-title"> <strong style="color:#6d6dba;">RATTING </strong></div>
+                 <div class="details1">                  
+                     <div class="details3">
+                         <p> JS & TS  :  <span class="bi bi-star-fill" style="color:#6d6dba;"> </span> <span class="bi bi-star-fill" style="color:#6d6dba;"> </span>
+                                         <span class="bi bi-star-fill" style="color:#6d6dba;"> </span> <span class="bi bi-star-half" style="color:#6d6dba;"> </span>
+                                          <span class="bi bi-star-half" style="color:#6d6dba;"> </span>
+                                        </p>
+                                        <p> REACT  :  <span class="bi bi-star-fill" style="color:#6d6dba;"> </span> <span class="bi bi-star-fill" style="color:#6d6dba;"> </span>
+                                            <span class="bi bi-star-fill" style="color:#6d6dba;"> </span> <span class="bi bi-star-fill" style="color:#6d6dba;"> 
+                                            </span> <span class="bi bi-star-half" style="color:#6d6dba;"> </span></p>                
+                        
+                     </div>                       
+                      
+                 </div>
+                 <!-- close details1 -->
+                 <div style="height: 80px;">
+
+                 </div>
+            </div>
+            <!-- ***************Section2 ********************** -->
+            <div class="sec2" style="padding: 20px;">
+                <div>
+                    <p> <b style="color:#6d6dba">ABOUT ME </b></p>
+                    <hr style="border:2px solid #6d6dba">
+                    <div style="padding-bottom: 20px;">
+                        <p> I am Rohit Prajapati an aspiring Web UI Full Stack Learning. 
+                            I am trying to seek a role to enhanceand explore my technical knowledge in your company.</p>
+                    </div>
+                </div>
+                <!-- Section1 -->
+                <div>
+                    <p> <b style="color:#6d6dba">CAREER OBJECTIVE </b></p>
+                    <hr style="border:2px solid #6d6dba">
+                    <div style="padding-bottom: 15px;">
+                        <p> I want to be a part of renewed organization & to contribute towards the growth of theorganization 
+                            based on my personal capabilities by learning from the
+                             new exposure within the structured frame ofwork.</p>
+                    </div>
+                </div>
+                <!-- Section1 -->
+                <div>
+                    <p> <b style="color:#6d6dba">WORK EXPERIENCE(PersonalProjects) </b></p>
+                    <hr style="border:2px solid #6d6dba">
+                    <div style="padding-bottom: 15px;">
+                       <h6 style="color:#6d6dba"> 1.	ONLINE SHOPPING APPLICATION(OSA)</h6> 
+                        <p> &#11162; Understanding how to design a shopping online 
+                            application that allows customers to browser, filter, sort products and create a custom shopping cart.</p>
+                        <h6 style="color:#6d6dba"> 1. ONLINE VIDEO TUTORIAL LIBRARY(OVL)</h6> 
+                        <p> &#11162; Understanding how to design a Video Library like YouTube application that allows admin to upload, 
+                            modify and delete videos. Customer can watch videos after register and login</p>
+                   
+                    </div>
+                    <!-- Next  -->
+                    <div style="padding-left:20px">
+                         <div style="line-height: 10px;">
+                            <h6 style="color:#6d6dba"> Technologies Used:</h6> 
+                            <p style="padding-left:40px"> Front End :HTML, CSS, JavaScript, jQuery</p>
+                            <p style="padding-left:40px"> Backend: Node JS, Express JS and MongoDB	</p>
+                         </div>                        
+                    </div>
+                </div>
+                <!-- Section1 -->
+                <div>
+                    <p> <b style="color:#6d6dba">EDUCATION </b></p>
+                    <hr style="border:2px solid #6d6dba">
+                    <div style="padding-bottom: 10px;line-height: 6px;">
+                        <h6 style="margin-bottom: 15px;"> JUNIOR SECONDARY(10th)</h6>
+                        <p> SMT V DEVI HSS S NAGAR H PUR AZAMGARH  </p>
+                        <p> Passing Year : 2014</p> 
+                        <p> Marks obtained : 82%</p> 
+                         
+                    </div>
+                    <div style="padding-bottom: 10px;line-height: 6px;">
+                        <h6 style="margin-bottom: 15px;"> SENIORSECONDARY(11th,12th)</h6>                         
+                        <p> SVN INTER COLLEAGE KALAN SULTANPUR  </p>
+                        <p> Passing Year : 2016</p> 
+                        <p> Marks obtained : 91.6%</p>   
+                         
+                    </div>
+                    <div style="padding-bottom: 10px;line-height: 6px;">
+                        <h6 style="margin-bottom: 15px;"> BACHELOR OF COMPUTER SCIENCES(BCA)</h6>
+                        <p> KS SAKET PG COLLEGE AYODHYA AYODHYA  </p>
+                        <p> Passing Year : 2021</p> 
+                        <p> Marks obtained : 65%</p>   
+                         
+                    </div>
+                </div>
+                <!-- Section1 -->
+                <div style="padding-left:0px">
+                    <div style="line-height: 10px;">
+                       <h6 style="color:#6d6dba"> DECLERATION</h6> 
+                       <hr style="border:2px solid #6d6dba">                                         
+                    </div>                        
+               </div>          
+               <!-- Section1 -->
+               <div style="padding-left:0px;display: flex;justify-content: space-between;">
+                    <div style="line-height: 0px;">
+                        <p> Date : </p>                
+                    </div> 
+                    <div>
+                        <p> Place : Noida <br>  Rohit Prajapati    </p>                
+                 </div>                        
+           </div>    
+            </div>
+        </section>
+    </div>
 </body>
 </html>
